@@ -1,0 +1,47 @@
+/*
+    Pilko teksto spalva
+    #666;
+
+    Bloko viršutinio border ir h1 spalva:
+    #0974b3
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle&display=swap');
+body {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 14px;
+    padding: 20px;
+    background-color: rgb(240, 238, 238);
+    margin: 0;
+    font-weight: lighter;
+}
+.container {
+	border: 1px solid lightgrey;
+	border-top: 5px solid #0974b3;
+	padding: 30px;
+	background-color: white;
+	margin: 15px;
+}h1 {
+	color: #0974b3;
+	margin-top: 0;
+    margin-bottom: 0;
+	font-size: 30px
+}
+
+img {
+	width: 160px;
+	height: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.newton {
+	width: 860px;
+	height: 310px;
+}
+.einstein, .tesla {
+	width: 387px;
+	height: 400px;
+	margin-right: 20px;
+	float: left;
+}
